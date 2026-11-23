@@ -26,6 +26,12 @@ Datheon_Full_Stack_Web_Development_Internship/
 │   ├── style.css
 │   └── script.js
 │
+├── task-4/       # Task 4: E-Commerce Product Catalog & Interactive Shopping Cart
+│   ├── README.md
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 └── README.md     # Main repository overview
 ```
 
@@ -63,6 +69,17 @@ Datheon_Full_Stack_Web_Development_Internship/
   - **5-Day Forecast via `Array.map()`:** Responsive daily forecast cards rendered dynamically with condition icons and min/max temperatures.
   - **Dynamic Background Gradients:** Automatically morphs between clear day, clear night, clouds, rain, thunderstorm, and mist themes.
   - **Robust Error & Loading States:** Smooth loading spinner, user-friendly error banners, and zero-config mock fallback.
+
+---
+
+### [Task 4: NovaStore — E-Commerce Product Catalog & Interactive Shopping Cart](./task-4/)
+- **Tech Stack:** HTML5, CSS Grid & Flexbox, Vanilla JavaScript (ES6+ `async/await`, `localStorage`), FakeStoreAPI
+- **Key Features:**
+  - **Live Product Catalog:** Asynchronous fetch from FakeStoreAPI with skeleton loading and retry banner.
+  - **CSS Grid Showcase:** Responsive card layout featuring category badges, star ratings with review counts, price, and "Add to Cart" triggers.
+  - **Real-Time Search & Filters:** Live search input, category tabs (`All`, `Electronics`, `Jewelery`, `Men's Clothing`, `Women's Clothing`), and multi-criteria sorting.
+  - **Slide-Out Cart Drawer & Persistence:** Live navbar badge, quantity controls, remove buttons, clear cart, free shipping progress bar, and full `localStorage` persistence.
+  - **Simulated Checkout Modal:** Form validation, order summary breakdown, and order confirmation receipt with generated order ID.
 
 ---
 
