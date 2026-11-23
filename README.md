@@ -20,6 +20,12 @@ Datheon_Full_Stack_Web_Development_Internship/
 │   ├── style.css
 │   └── script.js
 │
+├── task-3/       # Task 3: Real-Time Weather Forecast & Climate Telemetry
+│   ├── README.md
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 └── README.md     # Main repository overview
 ```
 
@@ -46,6 +52,17 @@ Datheon_Full_Stack_Web_Development_Internship/
   - **Zero-Server Persistence:** Automatically saves all state, edits, reordering, and deletions to browser `localStorage`.
   - **Real-Time Filtering & Search:** Instant search by task title or category, combined with status filters (`All`, `Active`, `Completed`).
   - **Visual Productivity Helpers:** Live counters (Total, Active, Completed), overdue task highlights, color-coded category badges (`Work`, `Personal`, `Study`), and modal editor.
+
+---
+
+### [Task 3: AuraCast — Real-Time Weather Forecast & Climate Telemetry](./task-3/)
+- **Tech Stack:** HTML5, CSS Flexbox (Dynamic Weather Themes & Gradients), Vanilla JavaScript (ES6+ `fetch`, `async/await`, `Array.map()`, `try-catch`)
+- **Key Features:**
+  - **Search & Telemetry Dashboard:** Global city search, quick-select chips (*Sylhet*, *Dhaka*, *London*, *Tokyo*, *New York*), and instant **°C / °F unit toggle**.
+  - **Climate Telemetry Metrics (Flexbox):** Live temperature, condition badge, humidity (%), wind speed with compass heading, atmospheric pressure (hPa), visibility, and High/Low ranges.
+  - **5-Day Forecast via `Array.map()`:** Responsive daily forecast cards rendered dynamically with condition icons and min/max temperatures.
+  - **Dynamic Background Gradients:** Automatically morphs between clear day, clear night, clouds, rain, thunderstorm, and mist themes.
+  - **Robust Error & Loading States:** Smooth loading spinner, user-friendly error banners, and zero-config mock fallback.
 
 ---
 
